@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://mirrorbits.lineageos.org/full/sagit/20230302/lineage-20.0-20230302-nightly-sagit-signed.zip'
+        default: 'https://bigota.d.miui.com/V13.0.15.0.SGMMIXM/miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
-        default: 'Compressed.7z'
+        default: 'gsi.7z'
       ROM_TYPE:
         description: 'ROM type/ROM 类型'
         required: true
@@ -33,16 +33,6 @@ jobs:
         run: |
           echo "BUILD_TIME=$(date +%s | md5sum | awk '{print substr($1,1,10)}')" >> $GITHUB_ENV
           echo "BUILD_sTIME=$(TZ=Asia/Shanghai date -d @$(date +%s) +'%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_ENV
-
-      - name: 发送 Telegram 提醒消息 1/2
-        uses: appleboy/telegram-action@master
-        with:
-         to: 1214932938
-         token: ${{ secrets.TELEGRAM_TOKEN }}
-         message: tosasitill GSI 开始构建！
-                      构建开始时间：${{ env.BUILD_sTIME }}
-                         提交链接：${{ github.event.inputs.ROM_URL }}
-                             提交 GSI 类型：${{ github.event.inputs.ROM_TYPE }}
 
       - name: 配置环境‌‌
         run: |
