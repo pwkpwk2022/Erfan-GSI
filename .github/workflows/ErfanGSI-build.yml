@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://jaist.dl.sourceforge.net/project/crdroid/tissot/7.x/crDroidAndroid-11.0-20220413-tissot-v7.17.zip'
+        default: 'https://doc-0g-a8-docs.googleusercontent.com/docs/securesc/5b29futu0vp7phbhv6vu0f62p96a1jff/dn94vskkuufpmvl7pad0o4fusoqfnv26/1681032150000/07821869990264611324/06960255461461367325/11C2tMHLe_-a-o3SyaD5RZkUk9BIW5WKx?e=download&ax=ALy03A5wKsWiq8DHe_Je6tmwiapU_cF1dr_ikHwg55pMUC4dfwkkndWCOk-PpcXABIJ85beQaQGUFdO33ydahWA2zhoNPoBpK7AIaRGAVDtYQ1jSOk3kahKmglsJVVWCofwc1euhVyMrjZXfbKKSdrYDAkxhwKGzVq5a5ODWadjyuth_MZadl4b8TLh5MZnpNO4lr2BpoTGfXR0jzhBYF1okUnRiMag8Tjgx68AXa-Iy4uO1RdtgnmBNbWVxUTivNMK3u46IXelv3WLzdqIAc8iFMT8YJ1oAVqxxVnPjk6b3XbsQ8_X_jR9GpiVSxNzwzzDlrt6osOiidVmYlMCVr_1g69mtDwsUNf1ymYMRvWESGwnXH2RoIv5q3-TqzE7dAzvJczXTsj_CYpddEa0eNdxcDX7dzgjUQWbbT8vpwqj7ED5Y6LItaIGqhZm-sUhNi8-VNAc-g4eKzjBjxUK3YVDkpjsp0gTCiN-vXKyyNgvFz_m4VgTxAD9YnVKimzHsSBBi-y2ky57oynSFyOX-Fz58OwcixBVbb4oYx4NOiBSYgVFCqdPud6VZDbq1togTR2_CJ1P1wTA8EqAOAmgoxy_c8ahrzG_7qNoEUh5zKkERKQtr_CKEttmyBjYvmaEarWeV-iq_-34MPrr32e_CmDqgNBStxCT05DM0UHm07AMN4sc2ekWHXrKaBPZ4XpBMVvU_sY72WA2o2d_ji6b4-7jjdDCjgskSCmSx2fJ-yQaGW21hOI1FbUTgXuMj2t595BV9gf93WgjyDf3EifA5epx0p7VnWq6W-hTw700j97LjGtX-VfakgTYOGfSPRtqlQhtrLmA2Hc4nIWGXJXgYJGj1Z20pGMGKpjIsRbW4XyglsnzvXw0VaMEc3OM2RL60We65XQ&uuid=edb69b0e-f439-4ec0-9a9f-432c9dc6d543&authuser=0&nonce=b3phh23gi15ki&user=06960255461461367325&hash=k90ilmqa6lpj9c06b8pvg1sif204vnna'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
