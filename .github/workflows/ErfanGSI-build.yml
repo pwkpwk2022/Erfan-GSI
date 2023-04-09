@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://7bde2t77227t78nf1vlf44ir5f172lfbhovbo0sc25l2s12lbmcfv4s8.qc.dolfincdnx.net:46087/xdispatchaf0a83b07d488d49/bigota.d.miui.com/V14.0.22.12.5.DEV/miui_CUPID_V14.0.22.12.5.DEV_10c73dca89_13.0.zip?bsreqid=66658ea9d0434c40d4a747e775d13623&bsxdisp=se'
+        default: 'https://jaist.dl.sourceforge.net/project/crdroid/tissot/7.x/crDroidAndroid-11.0-20220413-tissot-v7.17.zip'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
