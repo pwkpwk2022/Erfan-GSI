@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://bigota.d.miui.com/V13.0.15.0.SGMMIXM/miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip'
+        default: 'https://7bde2t77227t78nf1vlf44ir5f172lfbhovbo0sc25l2s12lbmcfv4s8.qc.dolfincdnx.net:46087/xdispatchaf0a83b07d488d49/bigota.d.miui.com/V14.0.22.12.5.DEV/miui_CUPID_V14.0.22.12.5.DEV_10c73dca89_13.0.zip?bsreqid=66658ea9d0434c40d4a747e775d13623&bsxdisp=se'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
@@ -14,7 +14,7 @@ on:
       ROM_TYPE:
         description: 'ROM type/ROM 类型'
         required: true
-        default: 'Generic'
+        default: 'MIUI'
 
 jobs:
   build_tosasitill_GSI:
