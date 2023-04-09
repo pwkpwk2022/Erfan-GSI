@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://altushost-swe.dl.sourceforge.net/project/certusroms/Havoc-OS-v4.15-20220406-certus-Unofficial.zip'
+        default: 'https://master.dl.sourceforge.net/project/mapwinprojects/arm64_Certus/SparkOS/vIgnite/Spark-vIgnite-certus64-Unofficial-vanilla-20220404.zip?viasf=1'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
